@@ -1,0 +1,13 @@
+<core:FragmentDefinition
+	xmlns="sap.ui.comp.valuehelpdialog"
+	xmlns:core="sap.ui.core">
+	<ValueHelpDialog id="_IDGenValueHelpDialog"
+		title="Product"
+		ok=".onMultipleConditionsValueHelpOkPress"
+		cancel=".onMultipleConditionsCancelPress"
+		key="Name"
+		descriptionKey="Name"
+		supportRanges="true"
+		afterClose=".onMultipleConditionsAfterClose"
+		supportRangesOnly="true"/>
+</core:FragmentDefinition>
